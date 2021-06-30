@@ -1,0 +1,537 @@
+<div class="custom-content">
+				<div class="row">
+					<div class="col-lg-3">
+					<!-- first column -->
+					</div>
+					<div class="col-lg-6">
+						<h3 class="subtitle"><?php echo get_field( "card1" );?></h3>
+					</div>
+					<div class="col-lg-3">\
+					<!-- last column -->
+					</div>
+				</div>
+			<!-- form row -->
+				<div class="row">
+					<div class="col-lg-4 ">
+					<!-- first column -->
+					</div>
+					<div class="col-lg-4 form">
+						<!-- Form  -->
+						<div class="row">
+							<div class="col-3">
+								<img class="form-logo" src="http://soumissions.test/wp-content/uploads/2021/04/satisfaction2.png"
+								style="height:100px;"> 
+							</div>
+							<div class="col">
+							<p class="logo-title" style="color:white; font-weight:500; font-size:20px; padding-top:10px;">Compare 3 reliable Building Inspectors near you for your Pre-Purchase Inspection. Simply fill out the form!</p>
+							</div>
+						</div>
+						<form>
+						<div class="row">
+							<div class="col">
+							<input type="text" class="form-control" placeholder="First name*">
+							</div>
+							<div class="col">
+							<input type="text" class="form-control" placeholder="Last name*">
+							</div>
+						</div>
+						<br>
+							<div class="row">
+							<div class="col">
+							<input type="text" class="form-control" placeholder="Email*">
+							</div>
+							<div class="col">
+							<input type="text" class="form-control" placeholder="Phone*">
+							</div>
+						</div>
+						<br>
+							<div class="row">
+							<div class="col">
+							<input type="text" class="form-control" placeholder="First name">
+							</div>
+							<div class="col">
+							<input type="text" class="form-control" placeholder="Last name">
+							</div>
+						</div>
+						<br>
+							<div class="row">
+							<div class="col">
+								<input type="text" class="form-control" placeholder="First name">
+							</div>
+						</div><br>
+							<div class="row">
+							<div class="col">
+									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Other Clarifications and details*"></textarea>
+							</div>
+						</div><br>
+						<div style="text-align:center">
+							<button class="btn btn-danger form-control p-3" style="width:50%;">Get My 3 Qoutes</button>
+							<p style="color:white;">By clicking on the button, you agree to our Terms and Conditions</p>
+						</div>
+						</form>
+					</div>
+					<div class="col-lg-4">\
+					<!-- last column -->
+					</div>
+				</div>
+				<!-- bottom images -->
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 img-arrow-col">
+							<img class="img-arrow" src="http://soumissions.test/wp-content/uploads/2021/04/form-arrow.png" alt="">
+						</div>
+						<div class="col-lg-4">
+								<!-- <img src="http://soumissions.test/wp-content/uploads/2021/04/VENDRE-icon.png" alt=""> -->
+						</div>
+						<div class="col-lg-4">
+							<!-- <img src="http://soumissions.test/wp-content/uploads/2021/04/SOUCIEUX-icon.png" alt=""> -->
+						</div>
+					</div>
+				<!-- bottom banner -->
+			
+				<div class="row">
+					<div class="col-lg-4">
+					<img src="http://soumissions.test/wp-content/uploads/2021/04/ACHETER-icon.png" alt="">
+						<div class="card first-cart" style="background-color:#2ab4c5; border-radius:0;">
+						<div class="row">
+							<div class="col" style="text-align:center; background-color:#2ab4c5;">
+								<div class="card my-2" style="border-radius:0;">
+								<h3 class="cart-text" style="font-size:15px;"><?php  echo  get_field( "card1");?> <br>
+								<span class="cart-text">TO</span><br>
+								<span style="color:#8bc838; font-size:21px;">BUY</span><br>
+								<span class="cart-text">A PROPERTY</span></h3>
+								</div>
+							</div>
+							<div class="col"><br>
+							<div class=""  style="text-align:left; background-color:#2ab4c5;">
+								<h3 style="color:white; font-size:15px; font-weight:600; padding-right:10px;">THE<br>
+								<span style="color:#233695; font-size:21px;">PRE_PURCHASE</span><br>
+								<span> INSPECTIONS</span><br>
+								<span style="color:#233695; ">ALLOWS</span><br>
+								<span >YOU ...</span></h3>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+					<img src="http://soumissions.test/wp-content/uploads/2021/04/VENDRE-icon.png" alt="">
+						<div class="card first-cart" style="background-color:#2ab4c5; border-radius:0;">
+							<div class="row">
+								<div class="col" style="text-align:center; background-color:#2ab4c5;">
+									<div class="card my-2" style="border-radius:0;">
+									<h3 class="cart-text" style="font-size:15px;">WOULD  YOU LIKE <br>
+									<span class="cart-text">TO</span><br>
+									<span style="color:#8bc838; font-size:21px;">SELL</span><br>
+									<span class="cart-text">A PROPERTY</span></h3>
+									</div>
+								</div>
+								<div class="col"><br>
+								<div class=""  style="text-align:left; background-color:#2ab4c5;">
+									<h3 style="color:white; font-size:15px; font-weight:600; padding-right:10px;">WITH<br>
+									<span style="color:#233695; font-size:21px;">PRE_SALE</span><br>
+									<span> INSPECTION</span><br>
+									<span style="color:white; ">YOU WILL <span style="color:#233695; font-size:18px">BE ABLE</span> </span><br>
+									<span > ...</span></h3>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+					<img src="http://soumissions.test/wp-content/uploads/2021/04/SOUCIEUX-icon.png" alt="">
+						<div class="card first-cart" style="background-color:#2ab4c5; border-radius:0;;">
+							<div class="row">
+								<div class="col" style="text-align:center; background-color:#2ab4c5;">
+									<div class="card my-2" style="border-radius:0;">
+									<h3 class="cart-text" style="font-size:15px;">ESSENTIAL TO <br>
+								
+									<span style="color:#8bc838; font-size:21px;">PROTECT</span><br>
+									<span class="cart-text">YOUR NEW HOME</span></h3>
+									</div>
+								</div>
+								<div class="col"><br>
+								<div class=""  style="text-align:left; background-color:#2ab4c5;">
+									<h3 style="color:white; font-size:13px; font-weight:200; padding-right:10px;">A FREE ACCEPTANCE INSPECTION<br>
+									<span style="color:#233695; font-size:15px; font-weight:500;">IS MANDATORY TO <br>HAVE THE <span style="color:white; font-size:12px">GCR</span></span><br>
+									<span style="color:#233695; font-size:15px; font-weight:500; ">WARRANTY</span><br>
+									<span style="color:WHITE; ">FOR NEW HOMES</span><br>
+									</h3>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<!-- end container -->
+			</div>
+			<!-- End content class -->
+
+
+			<!-- main content -->
+			<div class="container  main-content-below">
+				<h2 class="title-main text-justify">3 Pre-purchase inspection price: Compare 3 home inspectors in 2 min</h2>
+					<ul class="list-link" >
+						<li>Home /3 Pre-purchase inspection price: Compare 3 home inspectors in 2 mi</li>
+					</ul>
+					<div class="img-mobile text-center">
+						<img class="section1-img" src="http://soumissions.test/wp-content/uploads/2021/04/Screenshot_3.png" alt="">
+					</div>
+					<!-- with columns -->
+				<div class="row">
+					<div class="col-lg-6 mx-0 px-0">
+						<h2 class="h2-title">A building inspection before the purchase is essential.</h2><br>
+
+						<h2  class="h2-subtitle"><em>How to find an inspector quickly, without compromising on quality?</em></h2><br>
+
+						<p style="font-size: 16px;">At Inspectors Submission, we instantly forward your requests to 3 qualified inspectors.
+						 They can see what your needs are and send you a quote very quickly, thanks to the Web. <span style="color: #ff9900;">
+						C ompare the services, quality and price of your 3 quotes and save precious time. </span></p>
+
+						<h4 style="font-size: 18px; font-weight: 500;">Why is a pre-purchase property inspection essential?</h4>
+						The pre-purchase inspection is a key step in a transaction. It allows you to check the condition of the building and get a detailed report.
+						 With a pre-purchase inspection report in hand,<span style="color: #ff9900;">you will be able to effectively negotiate your real estate transaction</span>,
+						 either by requiring repairs to be made to the property or by asking for a better price.
+
+						To find a good inspector, you normally have to ask for quotes from several companies, compare certifications, expertise and prices.
+						<span style="color: #ff9900;">If you want to find a qualified inspector quickly, without having to make 5 or 6 phone calls, Inspectors Quotes is the solution.</span>
+						<p style="font-weight: bold;">You will get 3 quotes from professional inspectors in no time <span style="font-weight:400">
+						and only have to choose the right one for you for your pre-purchase inspection.</span></p>
+
+						</div>
+					<div class="col-lg-6 text-center img-first">
+						<img class="section1-img" src="http://soumissions.test/wp-content/uploads/2021/04/Screenshot_3.png" alt="">
+					</div>
+					<div class="divider">
+					<hr style="border-top:1px solid black;" >
+					</div>
+
+					<h2 class="h2-title">The pre-purchase inspection ensures the quality of the building or allows you to negotiate the price</h2><br>
+					<p class="mt-4">Buying a property is certainly an important stage in a person's life, but it is also a legal act that can have serious consequences.
+						 This is why Inspector Quotes helps you acquire a building in good condition. Obviously, there are sometimes problems that need to be rectified.
+						  Nevertheless, the professional partners of Inspectors Submissions will work to identify these problems and advise you on the corrective measures to be made. 
+						Whether you are in Quebec City, Montreal or anywhere in Quebec, the Inspectors Quote service will send you quotes from qualified building inspectors in your 
+						area for your pre-purchase inspection.
+					</p>
+					<h2 class="h2-title">Why do a pre-purchase inspection with a home inspector?</h2>
+					<p style="text-align: justify;" class="mt-4">With a pre-purchase inspection report in hand, you will save yourself a lot of trouble because you are buying a property 
+					of which you are familiar with the condition. The home inspector will carry out a thorough examination by visually examining the various components of the property. 
+					He will then give you a detailed report with supporting photos and advice. You will thus know if certain repairs are to be made, you will be able to assess whether 
+					the asking price is fair and to negotiate it according to the work to be done.In short, the pre-purchase inspection protects you from unpleasant surprises that could
+					 arise following the purchase of a property, and it allows you to onclude your transaction with peace of mind.
+					</p>
+
+					<div class="row">
+						<div class="col-lg-5">
+							<img class="section2-img" src="http://soumissions.test/wp-content/uploads/2021/04/evaluation-batiment-par-evaluateur-768x625-1.jpg" alt="">
+						</div>
+
+						<div class="col-lg-7">
+							<p>
+								During the pre-purchase inspection of the building, we strongly recommend that you be on site with your real estate broker. 
+								This will allow you to speak with the home inspector throughout the visit of the property and to take note of the various elements that 
+								he takes care to examine. The information you will gather during the inspection, in addition to the pre-purchase inspection report, will help you 
+								be well informed about the condition of the property and any problems large or small that will require corrective measures immediately or in the near
+								future. This will allow you to make an informed decision on whether you still want to acquire the property and what price you are willing to offer to obtain it.
+							</p>
+
+							<span style="color: #ff9900;">A pre-purchase inspection can save you big money!</span>
+							<h3 style="font-weight: 500;">When to do a pre-purchase inspection?</h3>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<p style="font-size: 16px;">Now that you know that a pre-purchase inspection noticeably reduces the risk of acquiring the desired property at an excessive price, you want to have it inspected before officially taking possession. Wise decision! But when exactly should you book the services of a home inspector?</p>
+					As it is in your best interest to meet the conditions included in the offer to purchase as soon as possible <span style="color: #ff9900;">complete the request for quotation form on this page as soon as you start looking for a new residence. Up to three (3) home inspectors in your area will respond to you within hours of your request</span> This will give you the freedom to choose the building inspection expert who is right for you without feeling pressed for time.
+					<p style="font-weight: bold;">All you have to do is tell the inspector that you have retained his services, explain the situation to him and certify that you will let him know as soon as you are ready to have the desired house inspected.</p>
+					Since, as a general rule, you have between<span style="font-weight: bold;"> 5 and 10 days after signing the offer to purchase to have the inspection carried out and to read the report</span> which presents the results, you will not be taken by surprise and he will not. more.
+
+					If the inspection report shows problems that the seller did not tell you about and these are serious enough for you to consider that the home is no longer worth the price mentioned in the offer to purchase, then you will be in right to terminate the contract or renegotiate the price.
+					<p style="font-weight: bold;">It is best to conduct the building inspection during the day <span style="font-weight: 400;">as it is primarily a visual examination. Your presence is however highly recommended.</span></p>
+					Depending on the size of the residence, its age, its architecture ... <b>the inspection should take between two (2) and three (3) hours . However, a full inspection can take a whole day.</b>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-3">
+
+					</div>
+					<!-- start form -->
+					<div class="col-lg-6 form2 mt-5">
+					<div class="row">
+						<div class="col-2">
+							<img src="http://soumissions.test/wp-content/uploads/2021/04/satisfaction2.png"
+							style="height:100px;"> 
+						</div>
+						<div class="col">
+						<p class="logo-title" style="color:white; font-weight:500; font-size:20px; padding-top:10px;">Compare 3 reliable Building Inspectors near you for your Pre-Purchase Inspection. Simply fill out the form!</p>
+						</div>
+					</div>
+					<form>
+					<div class="row">
+						<div class="col">
+						<input type="text" class="form-control" placeholder="First name*">
+						</div>
+						<div class="col">
+						<input type="text" class="form-control" placeholder="Last name*">
+						</div>
+					</div>
+					<br>
+						<div class="row">
+						<div class="col">
+						<input type="text" class="form-control" placeholder="Email*">
+						</div>
+						<div class="col">
+						<input type="text" class="form-control" placeholder="Phone*">
+						</div>
+					</div>
+					<br>
+						<div class="row">
+						<div class="col">
+						<input type="text" class="form-control" placeholder="First name">
+						</div>
+						<div class="col">
+						<input type="text" class="form-control" placeholder="Last name">
+						</div>
+					</div>
+					<br>
+						<div class="row">
+						<div class="col">
+							<input type="text" class="form-control" placeholder="First name">
+						</div>
+					</div><br>
+						<div class="row">
+						<div class="col">
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Other Clarifications and details*"></textarea>
+						</div>
+					</div><br>
+					<div style="text-align:center">
+						<button class="btn btn-danger form-control p-3" style="width:50%;">Get My 3 Qoutes</button>
+						<p style="color:white;">By clicking on the button, you agree to our Terms and Conditions</p>
+					</div>
+					</form>
+					</div>
+					<!-- end form -->
+					<div class="col-lg-3">
+						
+					</div>
+				</div>
+					<h3 class="h3-title mt-4">What will the home inspector check during the pre-purchase appraisal?</h3><br>
+					
+					<p class="p-title description">The exterior of the building</p>		
+					<p class="description">Is the building you are about to acquire in good general condition with no visible defects? Is the exterior cladding healthy? What about exterior windows and doors? 
+						These are some of the things the inspector will look at.
+						 He will also look at the condition of the roof while climbing it to verify that it is in good condition and that there is no point of water leakage in the attic or elsewhere.
+					</p>
+
+					<p class="p-title description">Structural components</p>
+					<p class="description">The home inspector will check several elements to ensure that the structural components of the property are in good condition. He will check the basement for moisture,
+						 which often allows you to detect a crack in the foundation. 
+						The foundation is the fundamental structural element of the house, the foundation of the building. The inspector will therefore attach great importance to it and ensure that there are no faults.
+					</p>
+
+					<div class="row">
+						<div class="col-lg-6">
+							<p class="p-title description">Plumbing</p>
+							<p class="description">The inspector will verify that there are no leaks in the piping system, that the water pressure is correct and that there are no blockages in the pipes. 
+								He will check if the water inlet is made of lead, a very contaminating material, because it is an expensive element to replace. The inspector will be able to detect too high
+								 a pressure by opening the taps in the bathroom on the top floor as well as by flushing the toilet. Turning on the water will allow him to check the condition of the pipes. 
+								 This is because if the water is not clear, there could be rust in the plumbing. 
+							</p>
+							<p class="p-title description">Heating</p>
+							<p class="description">The home inspector will check if your heating system is compliant. Is the furnace in good condition and free of rust? Does there seem to be a lack of insulation?
+								 Is the heating system suitable for the property? These are all elements that the inspector will observe during his passage.
+							</p>
+							<p class="p-title description">Electricity</p>
+							<p class="description ">It is very important that the electrical circuit is not overloaded since a circuit which draws more amperage than expected can cause a fire. Plus, replacing a fuse panel can easily
+							cost several hundred dollars. The inspector will therefore ensure that everything is compliant and safe for you and will detail this in the inspection report.
+							</p>
+
+							<p class="p-title description">The interior components of the building</p>
+							<p class="description">The building inspector will look at the condition of the wood in the building to make sure there is no rot. He will check, in particular</p>
+						</div>
+							
+						<div class="col-lg-6 text-center">
+						<img class="section3-img" src="http://soumissions.test/wp-content/uploads/2021/04/inspecteur-en-batiment-montreal-683x1024-1.jpg" alt="">
+						</div>
+					</div>
+					<p class="cutted-text">,the turn of the door and window frames. 
+						The inspector will go to the attic to make sure there are no water leaks and no insulation issues. It is common to see seepage in the asphalt shingles, or problems with the ventilation 
+						system in the roof, which create seepage or water leaks. It is always preferable to be aware of these types of problems quickly since the repair can easily exceed $ 2,500.</p>
+					<div class="row mt-5">
+						<div class="col-lg-6">
+							<p class="p-title description">Insulation</p>
+							<p class="descritpion">These are some of the elements that will be examined by the home inspector. After its examination, 
+								it will send you a complete pre-purchase report where you will find the details of the expertise with all the elements evaluated and the apparent defects detected during the visit. 
+								Not only will you be able to rely on this report to demand corrective work or negotiate the price of the property, but if another defect is found later, it will be considered a hidden defect since
+								 it was not visible during the repair. pre-purchase inspection. Your report will serve as proof and help you legally demonstrate that the discovered defect is indeed a hidden defect.
+							</p>
+						</div>
+
+						<div class="col-lg-6 text-center">
+							<img class="section4-img" src="http://soumissions.test/wp-content/uploads/2021/04/camera-thermique-rive-nord-montreal-768x390-1.jpg" alt="">
+						</div>
+						<p><b>A pre-purchase inspection is fundamental before purchasing a property. That is why you should use the services of a qualified professional. Know that Inspectors Submission is affiliated with experienced 
+							inspectors who will offer you excellent quality service. We can quickly connect you with home inspectors you can count on. By doing business with us, you will have peace of mind when purchasing your property. 
+							Do not hesitate to contact us!
+						</p></b>
+					</div>
+
+					<h3 class="h3-title">Compare the prices of home inspectors for the pre-purchase inspection of<br> your future home</h3><br>
+					<p>Thinking of buying a property? Have a pre-purchase inspection done to make sure that the building you want to acquire is free from defects.</p>
+
+					<p style="font-size:19px; color:#449cd7; font-weight:bold">What price for a pre-purchase inspection?</p>
+					<p>As you can imagine, the prices of a building inspection vary according to certain parameters such as:</p>
+						<ul>
+							<li>the region where the house you are having inspected is located,</li>
+							<li>the characteristics of the building (condo, house, apartment building, duplex, etc.)</li>
+							<li>the time taken for the inspection,</li>
+							<li>the age of the property,</li>
+							<li>etc.</li>
+						</ul>
+
+					<p>However, to give you an idea of ​​the cost of a pre-purchase inspection:</p>
+						<ul>
+							<li><b>a single - family home</b> of approximately 1,000 square feet (or an undivided condo), you can expect between $ 450 and $ 600,</li>
+							<li><b>of a condo (divided part)</b>, the price varies between $ 250 and $ 400</li>
+							<li><b>of a condo building</b> , expect to pay between $ 150 and $ 220 per additional inspection visit,</li>
+							<li><b>for an apartment block</b>, calculate between $ 450 and $ 550; plus $ 50 per unit,</li>
+							<li><b>a duplex</b>, consider between $ 550 and $ 650,</li>
+							<li><b>of a triplex</b>, plan from $ 600 to $ 700,</li>
+							<li><b>of a quintuplex</b>, figure approximately $ 800.</li>
+						</ul>
+					<p>However, if you consider the full amount of a real estate transaction, it is very little money to save you from buying a home that would only bring you problems or to reduce the price. 'planned purchase. 
+						<b>By saving you several hundred dollars, a pre-purchase inspection becomes a worthwhile investmen</b>
+					</p>
+
+					<p style="color:#FF0000; font-size:16px; font-weight:500;">Complete a request for quotes via the form on this page. In no time you will receive 3 <span style="color:#449cd7"><a href="https://soumissionsinspecteurs.ca/prix-inspection-pre-achat/">price quotes from 3 </a></span>different home inspectors .</p>
+					<p>You will only have to make your choice among the submissions received. No matter where you are in Quebec, we will be able to refer you to professionals near you. By doing business with Inspectors Quotes, you can be sure to have a pre-purchase inspection at a competitive price, of quality and made by a 
+						recognized professional. With the partner home inspectors of Inspectors Quotes, you will make the purchase of your new property hassle-free!
+					</p>
+
+
+					<div class="row">
+						<div class="col-lg-3 form-tofill">
+						<strong><span style="color: #3366ff; font-size: 24px;">Form to fill out
+						<img class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/13.0.1/svg/2935.svg" alt="⤵" /></strong>
+						</div>
+						<!-- form -->
+						<div class="col-lg-6 form2">
+							<div class="row">
+								<div class="col-2">
+									<img src="http://soumissions.test/wp-content/uploads/2021/04/satisfaction2.png"
+									style="height:100px;"> 
+								</div>
+								<div class="col">
+								<p class="logo-title" style="color:white; font-weight:500; font-size:20px; padding-top:10px;">Compare 3 reliable Building Inspectors near you for your Pre-Purchase Inspection. Simply fill out the form!</p>
+								</div>
+							</div>
+							<form>
+							<div class="row">
+								<div class="col">
+								<input type="text" class="form-control" placeholder="First name*">
+								</div>
+								<div class="col">
+								<input type="text" class="form-control" placeholder="Last name*">
+								</div>
+							</div>
+							<br>
+								<div class="row">
+								<div class="col">
+								<input type="text" class="form-control" placeholder="Email*">
+								</div>
+								<div class="col">
+								<input type="text" class="form-control" placeholder="Phone*">
+								</div>
+							</div>
+							<br>
+								<div class="row">
+								<div class="col">
+								<input type="text" class="form-control" placeholder="First name">
+								</div>
+								<div class="col">
+								<input type="text" class="form-control" placeholder="Last name">
+								</div>
+							</div>
+							<br>
+								<div class="row">
+								<div class="col">
+									<input type="text" class="form-control" placeholder="First name">
+								</div>
+							</div><br>
+								<div class="row">
+								<div class="col">
+										<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Other Clarifications and details*"></textarea>
+								</div>
+							</div><br>
+							<div style="text-align:center">
+								<button class="btn btn-danger form-control p-3" style="width:50%;">Get My 3 Qoutes</button>
+								<p style="color:white;">By clicking on the button, you agree to our Terms and Conditions</p>
+							</div>
+							</form>
+						</div>
+						<div class="col-lg-3">
+
+						</div>
+					</div>
+				</div> <!-- end container -->
+
+				<div class="footer my-5">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-lg-4">
+								<h2 class="footer-title">CUSTOMIZED INSPECTION</h2>
+								<div class="footer-links my-4">
+									<p class="footer-menu">Quotes</p>
+									<p class="footer-menu">Building</p>
+									<p class="footer-menu">inspectors Real estate inspection</p>
+									<p class="footer-menu">services</p>
+									<p class="footer-menu">Sectors covered</p>
+									<p class="footer-menu">Articles & Advice</p>
+									<p class="footer-menu">Contact</p>
+									<p class="footer-menu">About us</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4">
+							<h2 class="footer-title">BUILDING INSPECTION</h2>
+								<p  class="footer-menu my-4">Pre-purchase inspection</p>
+								<p  class="footer-menu">service Pre- sale inspection</p>
+								<p  class="footer-menu">service Pre-receipt inspection service</p>
+								<p  class="footer-menu">service Pre-receipt inspection service</p>
+								<p  class="footer-menu">Price Inspection House</p>								
+								<p class="tobecome"><button class="btn btn-danger tobecome-btn">TO BECOME PARTNER</button></p>
+						</div>
+
+						<div class="col-lg-4 contact">
+							<h2 class="footer-title">CONTACT US </h2>
+								<div class="addons my-4">
+								<i style="color:white;" class="fas fa-phone-alt fa-2x"><span class="contact-infos " style="padding:10px">(438) 795-2513</span></i><br>
+								<br><i  style="color:white;" class="fas fa-phone-alt fa-2x"><span class="contact-infos" style="padding:10px">(418) 800-3652</span></i><br>
+									<br>
+								</div>
+									<form>
+									<div class="row">
+									<div class="col"><input class="form-control" type="text" placeholder="First name*" /></div>
+									<div class="col"><input class="form-control" style="margin-bottom: 10px;" type="text" placeholder="Last name*" /></div>
+									</div>
+									<div class="row">
+									<div class="col"><input class="input form-control" style="margin-bottom: 10px;" type="text" placeholder="Email*" /></div>
+									<div class="col"><input class=" input form-control" style="margin-bottom: 10px;" type="text" placeholder="Phone*" /></div>
+									</div>
+									<div class="row">
+									<div class="col"></div>
+									</div>
+									<div style="text-align: center;"><button class="btn btn-danger form-control p-3" style="width: 100%; border-radius:25px">TO SEND</button></div>
+									</form>
+							</div>
+							<p style="color:white; font-size:14px;" class="my-5 copyright">© 2021 Inspectors Submissions . All rights reserved.<br>
+							Website referencing by: Oolong Media <img src="http://soumissions.test/wp-content/uploads/2021/04/Oolong-Media-logo.png" alt="">
+							</p>
+						</div>
+					</div>
+				</div>

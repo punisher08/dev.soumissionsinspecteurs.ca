@@ -1,0 +1,1980 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+/* .devenir-bg{
+    position: absolute;
+} */
+.form-devenir{
+    width: 80%;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+    font-size: 24px;
+}
+.body-card{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+.form-title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 28px
+}
+.devenir-form{
+    position: relative;
+    background-color: rgba(42, 180, 197, 0.8);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0px auto;
+    /* width: 80%; */
+    padding: 20px 8px;
+    font-size: 28px;
+    text-align: center;
+}
+/* .devenir-bg{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: 20% 20%;
+    margin-bottom: 20px;
+} */
+.post-button{
+    background-color: #3795f3;
+    border-color: #0078c8;
+    color: #FFFFFF;
+    padding: 11px 30px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    -webkit-box-shadow: inset 0px -15px 15px 0px rgb(0 0 0 / 25%), inset 0 1px 0 0 rgb(255 255 255 / 50%);
+    box-shadow: inset 0px -15px 15px 0px rgb(0 0 0 / 25%), inset 0 1px 0 0 rgb(255 255 255 / 50%);
+    text-shadow: rgb(0 0 0 / 30%) 0px 0px 2px;
+    border-width: 1px;
+    border-style: solid;
+    text-transform: uppercase;
+}
+.rwd-table{
+    width: 70%;
+    margin-left: 15%;
+}
+.blue-color{
+    background-color: #000066;
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    border-color: #EBEBEB;
+}
+.Notes{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #c7d5ed;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+/*  */
+.prev-page:hover{background-color:#fff;
+	font-style:underline;
+	color:#2482c1;
+	 text-decoration: underline;
+	font-weight: 700; 
+	font-family: Lato, Arial, Tahoma, sans-serif;
+	
+}
+.next-page:hover{
+	background-color:#fff;
+	font-style:underline;
+	color:#2482c1;
+	 text-decoration: underline;
+	font-weight: 700; 
+	font-family: Lato, Arial, Tahoma, sans-serif;
+}
+.next-page{
+	  right: 0;
+    position: absolute;
+	color:#2482c1;
+	background:white;
+		font-weight: 700; 
+	font-family: Lato, Arial, Tahoma, sans-serif;
+}
+.prev-page{
+color:#2482c1;
+	background:white;
+		font-weight: 700; 
+	font-family: Lato, Arial, Tahoma, sans-serif;
+}
+.page-numbers{
+	background-image: url(http://soumissions.test/wp-content/uploads/2021/04/pager.png);
+	    display: inline-block;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 14px;
+    width: 33px;
+    height: 36px;
+    line-height: 32px
+}
+.next{display:none !important;}
+.prev{display:none !important;}
+.subtitle-vice-cache-inspection-preachat{
+	    font-size: 32px;
+    line-height: 39px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.bot-code{
+	text-align: right;
+}
+.table{
+	    height: auto;
+    background: rgba(0,0,0,0.02);
+	    padding: 15px;
+    font-style: italic;
+    font-size: 14px;
+	    text-align: center;
+}
+.subtitle-inspection-fondations-maison{
+	    font-size: 32px;
+    line-height: 39px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.lire-la-suite-btn{
+	display: inline-block;
+    padding: 11px 30px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+	background-color:#3795f3;
+	border-color: #0078c8;
+}
+.post-link-btn{
+	text-align: right;
+    margin-bottom: 30px;
+}
+.post-title{
+	    font-size: 26px;
+    line-height: 33px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.articles-conseils-cropped-img{
+	width: 250px;
+    height: 120px;
+    object-fit: cover;
+    object-position: 20% 20%;
+	margin-bottom:20px;
+/* 	    width: 100%;
+    height: 150px;
+    margin-bottom: 20px; */
+}
+.title-inspecteurs-en-batiment-trois-rivieres{
+	font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+}
+.bottom-text-article{
+	  color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 20px;
+}
+div.article-form-inputs> input{
+	margin-bottom:10px;
+	font-style: italic;
+}
+.article-form-btn{
+	background-color: #d41f3e;
+	font-size:14px;
+	font-family: Lato, Arial, Tahoma, sans-serif;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+.form3{
+	    background: #303034 !important;
+	padding:20px;
+	margin-bottom:50px;
+}
+.article-form{
+	color: #fff !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+	margin-bottom: 10px;
+}
+.with-background{
+	background-color: #2AB4C5;
+}
+.inspecteurs-en-batiment-trois-rivieres-tbody{
+text-align-last: center;
+}
+.table-head-inspecteurs-en-batiment-trois-rivieres{
+	  background-color: #000000;
+    color: #ffffff;
+}
+.table-inspecteurs-en-batiment-trois-rivieres{
+	    width: 70%;
+    margin-left: 15%;
+}
+.addons-footer{
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 30px;
+	font-family:Lato, Arial, Tahoma, sans-serif;
+}
+.mobile-div-img-1823{
+    display:none;
+}
+.cutted-text{
+    margin-top:-20px;
+}
+	.mobile-img-1841{
+		display:none;
+	}
+/* inspecteurs-en-batiment-sherbrooke page */
+	.mobile-div-img-1847{
+		display:none;
+	}
+.mobile-img-29{
+	display:none;
+}
+.mobile-img-1888{
+	display:none;
+}
+.desktop-img-29{
+ height: 537px;
+   width: 358px;
+	}
+.desktop-img-1841{
+	height: 557px;
+    width: 451px;
+}
+.mobile-img-1875{
+	display:none;
+}
+.desktop-img-1875{
+	height: 483px;
+    width: 282px;
+}
+/*  */
+.subtitle-assurance-habitation-comparer-conseils-inspection{
+    font-size: 32px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    line-height: 39px;
+
+}
+.half-form{
+    font-size: 12px;
+}
+.mobile-img-1798{
+    display: none;
+}
+.img-inspecteurs-en-batiment-rive-sud-de-montreal-1723{
+    display: none;
+}
+.img-inspection-immobiliere-a-quebec-1753{
+    display: none;
+}
+.inspecteurs-en-batiment-gatineau-image-1802{
+    max-width: 600px;
+}
+.inspecteurs-en-batiment-gatineau-image{
+    text-align-last: center;
+   
+}
+.h2-with-border{
+    border-bottom: 4px solid #007fff;
+    line-height: 40px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: 32px;
+
+}
+
+.table-inspecteurs-en-batiment-gatineau{
+    width: 70%;
+    margin-left: 15%;
+}
+.inspecteurs-en-batiment-gatineau-tr-title{
+    text-align: center;
+}
+.inspecteurs-en-batiment-gatineau-subtitle
+{
+    font-size: 27px;
+    line-height: 33px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.inspecteurs-en-batiment-gatineau-title{
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.subtitle-inspecteur-batiment-levis-rive-sud-quebec{
+    font-size: 27px;
+    line-height: 33px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.h2-inspecteur-batiment-levis-rive-sud-quebec-title{
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+.desktop-img-1770{
+    max-width: 483px;
+}
+.mobile-img-1770{
+    display: none;
+}
+.inspection-immobiliere-a-quebec-image{
+    text-align: center;
+}
+.table-inspection-immobiliere-a-quebec{
+    width: 70%;
+    margin-left: 15%;
+
+}
+.inspection-immobiliere-a-quebec-tbody{
+    color: #646464;
+}
+.tr-inspection-immobiliere-a-quebec:nth-child(odd){
+    /* background-color: #ebebeb; */
+    background: rgba(0,0,0,0.02);
+
+}
+.table-head-inspection-immobiliere-a-quebec{
+    color: #ff6600;
+
+}
+.p-with-color{
+    color: #ff6600;
+    font-style: italic;
+  
+}
+.underlined{
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.inspection-immobiliere-a-quebec-image{
+    text-align: center;
+}
+.inspection-immobiliere-a-quebec-subtitle{
+    font-size: 32px;
+    line-height: 39px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.inspection-immobiliere-a-quebec-title{
+    font-size: 37px;
+    line-height: 40px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.no-list{
+    list-style: none;
+    text-align: center;
+}
+.inspecteurs-en-batiment-rive-sud-de-montreal-image{
+    text-align: center;
+}
+.italic-text{
+    font-style: italic;
+
+}
+.subtitle-inspecteurs-en-batiment-rive-sud-de-montreal{
+    font-size: 32px;
+    line-height: 39px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.table-inspecteurs-en-batiment-rive-sud-de-montreal{
+    width: 70%;
+    margin-left: 15%;
+
+}
+ .table-head-inspecteurs-en-batiment-rive-sud-de-montreal{
+    background-color: #dadada;
+}
+.nspecteurs-en-batiment-rive-sud-de-montreal-title{
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+
+}
+.inspecteurs-en-batiment-rive-sud-de-montreal-title-with-border{
+    border-bottom: 4px solid #007fff;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 27px;
+    line-height: 33px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.mobile-img-9{
+    display: none;
+}
+.inspecteur-en-batiment-rive-nord-montreal-image{
+    text-align: center;
+}
+.p-custom-text{
+    font-weight: bold;
+    font-style: italic;
+}
+.inspecteur-en-batiment-rive-nord-montreal-title{
+    font-size: 27px;
+    line-height: 33px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+}
+.inspecteur-en-batiment-rive-nord-montreal-tbody{
+    text-align-last: center;
+    font-weight: bold;
+}
+.tr-inspecteur-en-batiment-rive-nord-montreal:nth-child(even) {
+    background-color: #99ccff;
+    color: #646464;
+}
+.tr-inspecteur-en-batiment-rive-nord-montreal:nth-child(odd) {
+ 
+    color: #646464;
+}
+.table-inspecteur-en-batiment-rive-nord-montreal{
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid #007fff;
+}
+.table-head-inspecteur-en-batiment-rive-nord-montreal{
+    background-color: #0066cc  !important;
+    color: white !important;
+}
+.h2-subtitle-inspecteur-en-batiment-rive-nord-montreal{
+    font-size: 32px;
+    line-height: 39px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.h2-inspecteur-en-batiment-rive-nord-montreal-title{
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.mobile-img-1671{
+    display: none;
+}
+.red-text{
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.inspecteur-en-batiment-laval-page{
+    text-align: center;
+}
+.text-withcolor{
+    color: #339966;
+    font-weight: bold;
+}
+.inspecteur-en-batiment-laval-image{
+    text-align: center;
+}
+.h2-withcolor{
+    font-size: 20px;
+    color: #339966;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.h2-title-withcolor{
+    font-weight: bold;
+    color: #339966;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.with-color{
+    font-size: 14pt;
+    color: #339966;
+    font-weight: bold;
+}
+.table-inspecteur-en-batiment-laval{
+    width: 70%;
+    margin-left: 15%;
+}
+.table-head{
+    color: #339966;
+    font-weight: bold;
+    font-size: 16px;
+}
+.red-color-p{
+    color: #ff0000;
+    font-weight: bold;
+}
+.h2-lavalpage-main{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.mobile-img-1526{
+    display: none !important;
+}
+.p-withcolor-laval{
+    color: #339966;
+    font-weight: bold;
+}
+.inspecteur-en-batiment-laval-h2{
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 40;
+}
+.p-withcolor{font-style: italic;}
+.desktop-img-1505{
+    height: 272px;
+    max-width: 362px;
+}
+.mobile-img-1505{
+    display: none;
+}
+.span-withcolor{
+    color: #449cd7;
+}
+.section2-inspection-immobiliere-a-montreal-title{
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
+.h1-inspection-immobiliere-a-montreal-main{
+    font-size: 27px;
+    line-height: 33px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.h2-inspection-immobiliere-a-montreal-subtitle{
+    font-size: 32px;
+    line-height: 39px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.h2-inspection-immobiliere-a-montreal-title{
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.h2-inspection-immobiliere-a-montreal{
+    font-size: 32px;
+    line-height: 39px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.desktop-img-10{
+    float: right;
+    height: 320px;
+    width: 220px;
+}
+.mobile-img-10{
+    display: none;
+}
+.img2-1439{
+    display: none;
+}
+.title2{
+    margin-bottom: 20px;
+}
+.mobile-img-1424{
+    display: none;
+}
+.mobile-img-1401{
+    display: none;
+}
+.h3-title-page{
+    font-size: 27px;
+    line-height: 33px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700 !important;
+    margin-bottom: 20px;
+}
+.h2-inspecteur-en-batiment{
+    font-size: 27px;
+    line-height: 33px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.desktop-img-1401{
+    height: 520px;
+    width: 349px;
+}
+.page-inspecteur-en-batiment-h1{
+    font-size: 27px;
+    line-height: 33px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.h2-title-enbatiment{
+    font-size: 24px;
+    line-height: 39px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.h2-title-inspecteur-en-batiment{
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.btn-service-dinspection-immobilier{
+    padding: 0px !important;
+    width: 90%;
+}
+.bg{
+    position: absolute;
+    height:-webkit-fill-available;
+}
+a:hover{
+    color: #449cd7;
+}
+.a-with-color:hover{
+    color: #449cd7;
+}
+.link-to-home-footer{
+    color: white;
+}
+.link-to-home-footer:hover{
+    color: #449cd7;
+}
+.tosend-btn:hover{
+    background-color:#2ab4c5;
+    border:none;
+}
+.single-row{
+    width: 96%;
+}
+.small-text{
+    margin-top: 40px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #3E94B5 !important;
+}
+.breadcrumbs{
+    float: right;
+    margin-top: 40px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #3E94B5 !important;
+}
+
+.bld-images-1282 {
+    height: 520px  !important;
+}
+
+body{
+    font-family:Lato, Arial, Tahoma, sans-serif !important;
+    color:646464;
+    font-size: 16px;
+    }
+
+    .link-to-home{
+        color:black !important;
+    }
+    .banner-group{
+        z-index: 1;
+    }
+    .man-work{
+        width: 400px;
+        height: 436px;
+    }
+    .man-work-div{
+        position: absolute;
+        bottom: 0;  
+        right: 0;
+        margin-right: 90px;
+    }
+    .form-footer{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .tosend-btn{
+     
+        margin-bottom:20px;
+      padding: 15px;
+         line-height: 0px; 
+         font-style:initial; 
+         font-weight:500
+    }
+
+    .tobecome-btn{
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+
+    .ast-primary-header-bar{
+        border-bottom: 2px solid #b1b4b9;
+    }
+    .main-header-menu .current-menu-item > .menu-link {
+        color: #8bc838;
+    }
+    .sub-menu{
+        width:400px !important;
+    }
+    .main-header-menu .sub-menu .menu-link{
+        width:400px !important;
+    }
+    .homeservices{
+            font-size: 15px;
+        color: #303034;
+        font-weight: 400;
+        line-height: 19px;
+        text-transform: uppercase;
+        margin: 10px 5px;
+    }
+    .service1{
+          font-size: 21px;
+        color: #8bc838;
+        font-weight:bold
+    }
+    .homeservice-second-column{
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding-left:5px;
+        margin-top:10px;
+    }
+    .service1-second-column{
+            font-size: 21px;
+        color: #233695;
+            font-weight: bold;
+    }
+    .homeservice-last{
+         font-size: 10px;
+        color: #fff;
+        font-weight: 100;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    .service-last{
+            font-size: 12px;
+            color: #233695;
+         
+    }
+    .text-links{
+        color:white;
+    }
+    .text-links:hover{
+        border-bottom:2px solid white;
+        color:white;
+    }
+    .footer-link-text{
+        color:white;
+        font-size: 18px  !important;
+    }
+    .footer-link-text:hover{
+        color:#449cd7;
+    }
+    .img-text-inside{
+        margin-top: -55px;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: #fff !important;
+        margin-left: -20px;
+    }
+    .box{
+        margin-right: -20px;
+    }
+    .services{
+        width: 200px;
+        font-size: 15px;
+        color: #303034;
+        font-weight: 400;
+        line-height: 19px;
+        text-transform: uppercase;
+        text-align: center;
+        }
+    .tagline{
+        font-size: 17px;
+        font-style: italic;
+        text-align: center;
+        color: #000;
+        font-weight: 700;
+           margin-top: -30px;
+        line-height: 25px;
+        font-family: unset;
+    }
+    .by-clicking-text{
+        color: white;
+        font-style: initial;
+        line-height: 1.2;
+        font-size: 14px;
+        text-align: left;
+        font-family:Lato, Arial, Tahoma, sans-serif !important;
+        text-align: center;
+    }
+    .addons{
+            color: #303034 !important;
+        font-size: 22px;
+        margin-bottom: 8px;
+        float: none !important;
+        text-align: center !important;
+    }
+    .submission{
+            border-radius:50px;
+        border: 0;
+        vertical-align: baseline;
+            padding: 11px 30px;
+          line-height: 15px;
+            background-color: #d41f3e !important;
+        border-color: #d41f3e !important;
+          font-size: 16px !important;
+          border-width: 1px;
+        border-style: solid;
+            font-weight: bold;
+    }
+    .submission:hover{
+        background-color: #2AB4C5 !important;
+        border: none;
+    }
+    .main-header-menu > .menu-item > .menu-link{
+        font-family: Lato, Arial, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size:14px;
+    }
+
+.tr-inspection-prereception-copropriete{
+    text-align: center;
+}
+.copyright{
+    color:white;
+    font-size: 12px;
+}
+.by-clicking{
+     color:white;
+     font-size:14px; 
+     line-height:15px;
+     font-style: initial;
+}
+.form-button:hover{
+background-color: #28b6c7;
+border: 0px solid #28b6c7;
+}
+.form-button{
+    margin-bottom: 10px;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+    border-radius: 25px !important;
+    font-size: 22px !important;
+    text-transform: none;
+    width: 80%;
+    font-style: initial;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.mid{
+    color:#8bc838;
+     font-size:21px;
+     font-weight: 500;
+}
+.card-text{
+    font-size:15px;
+   
+}
+.cart-text{
+    line-height: 0.75em  !important;
+}
+.custom-content{
+    /* background-image: url('http://dev.soumissionsinspecteurs.test/wp-content/uploads/2021/04/Maison-soumission-inspecteur-1.jpg'); */
+    height:auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subtitle{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    font-family: Lato, Arial, Tahoma, sans-serif !important;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.form{
+    background-color: #808080bf;
+    border-radius: 25px;
+    padding: 20px;
+    z-index: 1;
+}
+.form2{
+    background-color: #808080;
+    border-radius: 25px;
+    padding:30px;
+}
+.title-main{
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 100;
+    padding-top: 25px;
+    /* font-family: Lato, Arial, Tahoma, sans-serif; */
+    font-family: system-ui;
+    color: #174759;
+    margin: 25px 0 25px;
+}
+.list-link{
+    list-style: none;
+    text-align: right;
+    color: blue;
+}
+.h2-title{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+}
+.h2-subtitle{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 33px;
+}
+.h1-title{
+    font-size: 40px;
+    line-height: 40px;
+}
+.h3-title{
+    font-weight: 600;
+    font-size: 27px;
+}
+.section1-img{
+    /* max-height: 70%; */
+    height: 600px;
+}
+.section2-img{
+    height: 300px;
+    width: 100%;
+}
+.p-title{
+  font-weight:bold; 
+  color: #ff9900;
+}
+.description{
+    margin-bottom: 0.5em;
+}
+.section4-img-457{
+    height: 350px;
+    width: 500px;
+
+}
+.section-550{
+    height:290px;
+    float:left;
+}
+.section4-img-10{
+    height: 600px;
+    width: 500px;
+}
+.section4-img-9{
+    height: 193px;
+    width: 500px;
+}
+.footer{
+    /* background-image: url('http://soumissions.test/wp-content/uploads/2021/04/footer-bg.png'); */
+    height:auto;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+    background-color: #303034;
+}
+.footer-links{
+    color:white;
+    list-style: none;
+    text-align: left;
+}
+.footer-title{
+    color:#2ab4c5;
+    font-weight: 700;
+    font-size: 22px;
+    list-style: none;
+    font-family: Lato, Arial, Tahoma, sans-serif;
+}
+.footer-menu{
+    line-height: 0em;
+    font-size: 18px;
+    color:white;
+}
+div.footer-links > p{
+    line-height: 0em;
+    font-size: 18px;
+    color:white;
+}
+.img-arrow-col{
+    /* position: absolute; */
+    margin-top: -260px;
+    text-align: right;
+    margin-right: 15px;
+}
+.img-arrow{
+    margin-right: 15px;
+}
+.img-mobile{
+    display: none;
+}
+.tobecome{
+    text-align: left;
+}
+.tobecome-btn{
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.tobecome-btn:hover{
+   background-color:#2ab4c5;
+   color: white;
+   border:none
+}
+.contact-infos{
+    font-weight: 300;
+    font-family: 'Lato';
+}
+.form-tofill{
+    text-align: right;
+}
+.main-form-banner{
+    line-height: 5px;
+    font-style: italic;
+}
+input[type=email], input[type=number], input[type=password], input[type=reset], input[type=search], input[type=tel], input[type=text], input[type=url], select{
+    height: 30px;
+}
+.form-col-desktop{
+    margin-right: -15px !important;
+}
+.footer-form{
+    width:70%;
+}
+
+/* from front end */
+.divider-in-presale-inspection{
+	display:none;
+}
+.subheading-presale{
+	font-size:40px; 
+	line-height: 40px; 
+	font-weight:400; 
+	font-style:initial;
+}
+.section-390{
+	height:300px;
+	float:left;
+}
+.first-content-pre-purchase{
+	font-size: 32px;
+    line-height: 39px;
+	font-weight:700;
+	margin-bottom:20px;
+}
+
+.main-logo-text{
+	text-align:center;
+}
+.main-header-menu > .menu-item > .menu-link .current-menu-item{
+	color:#8bc838 !important;
+
+}
+.main-header-menu > .menu-item > .menu-link:hover{
+	color:#8bc838 !important;
+
+}
+.ast-desktop .ast-builder-menu-1 .menu-item .sub-menu .menu-link:hover{
+	color:#8bc838  !important;
+}
+.current-menu-item{
+	color:#8bc838  !important;
+    border-top: 4px solid #8bc838;
+    border-radius: 5px;
+}
+.ast-builder-grid-row.ast-grid-center-col-layout-only .ast-grid-section-center{
+	text-transform:capitalize;
+}
+.process-title{
+	font-size:15px;
+	font-weight:600;
+	padding-right:10px;
+	color:white;
+    line-height:20px;
+    padding-left: 10px;
+}
+.first-cart{
+	height:150px;
+}
+.process-cart{
+	margin-left:10px;
+}
+.h1-service-dinspection-immobilier-page{
+    font-size: 26px;
+    line-height: 33px; 
+    font-weight: 700;
+    margin-bottom: 10px;
+    }
+.h1-service-dinspection-immobilier-page-withcolor{
+    color:#449cd7; 
+    font-weight:700;
+    font-size: 32px;
+
+}
+.mobile-section1-29{
+    display: none;
+}
+.h1-title-inspection-preachat{
+    font-weight: bold; 
+    font-size: 27px; 
+    line-height: 33px;
+}
+.mobile-section1-444{
+    display: none;
+}
+.mobile-section4-img-457{
+    display: none;
+}
+.mobile-section4-467{
+    display: none;
+}
+.mobile-section4-img-10{
+    display: none;
+}
+.mobile-section4-9{
+    display: none;
+}
+.mobile-section1-img-390{
+    display: none;
+}
+.subheading-presale{
+
+    font-size:40px; 
+    line-height: 40px; 
+    font-weight:400; 
+    font-style:initial;
+}
+.mobile-section1-img-550{
+    display: none;
+}
+.first-content-h1-inspection-prereception-copropriete{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight:400;
+}
+.h2-content-inspection-prereception-copropriete{
+    font-size: 32px;
+    line-height:39px;
+    font-weight:500;
+}
+.h2-inspection-prereception-copropriete-withcolor{
+    color: #449cd7; 
+    font-size: 32px;
+    line-height:39px;
+    font-weight:500;
+}
+.mobile-section4-img-647{
+    display: none;
+}
+.mobile-section1-img-444{
+    display: none;
+}
+.with-padding{
+    padding-right: 90px;
+    padding-left: 90px;
+}
+.desktop-section1-img-444{
+    height: 520px;
+    width: 327px;
+}
+.mobile-section1-img-29{
+    display: none !important;
+}
+.desktop-section1-img-29{
+    height: 595px;
+    width: 395px;
+}
+.desktop-section4-img-10{
+    height: 691px;
+    width: 461px;
+}
+.desktop-section4-img-9{
+    width: 382px;
+    height: 193px;
+    float: left;
+}
+.custom-padding{
+    padding-left: 90px;
+}
+.main-header-menu .current-menu-item > .menu-link{
+    border:2px solid white i !important;
+}
+.main-header-menu .sub-menu .menu-link{
+    border-top: 1px solid #449cd7 !important;
+    /* border-style: dashed !important; */
+    border-color: #449cd7;
+}
+.votre{
+    font-size: 12px;
+}
+
+/* .desktop-section1-img-390{
+
+    display: block;
+} */
+/* from front end */
+
+@media only screen and (max-width: 440px) {
+ 
+    .mobile-tagline{
+        margin-bottom: 15px;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .img-text-inside{
+        margin-top: -90px !important;
+    }
+
+}
+@media only screen and (max-width: 991px) and (min-width:769px) {
+    .img-arrow{
+        display: none;
+    }
+    .mobile-form{
+        padding-bottom: 10px;    }
+    .images{
+        margin-bottom: 40px;
+    }
+    .img-text-inside {
+        margin-top: -95px !important;
+        margin-bottom: 50px;
+    }
+    .index-image{
+        display: none;
+    }
+    .man-work{
+        display: none;
+    }
+    .mobile-header{
+        text-align: center;
+    }
+    .submission-mobile{
+        padding: 15px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1700px) {
+ 
+    .homeservices{
+        font-size: 12px !important;
+    }
+    .service1-second-column{
+        font-size: 17px !important;
+    }
+    .homeservice-second-column{
+        font-size: 13px;
+    }
+    .votre{
+        font-size: 10px;
+    }
+    .homeservice-last{
+        font-size: 11.5px;
+    }
+    /* .img-arrow{
+        display: none;
+    } */
+
+}
+/*  */
+@media only screen and (max-width: 1199px) {
+    .icon{
+        margin-bottom: 10px;
+    }
+    .img-text-inside{
+        margin-top: -48px;
+    }
+    .form-button{
+        font-size: 18px !important;
+    }
+    /* .img-arrow{
+        display: none;
+    } */
+    .homeservices{
+        font-size: 11px;
+    }
+    .service1-second-column{
+        font-size: 11px !important;
+    }
+    .homeservice-second-column{
+        font-size: 11px;
+    }
+    .votre{
+        font-size: 8px;
+    }
+    .homeservice-last{
+        font-size: 9px;
+    }
+    .service1{
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* @media 768px */
+
+
+
+@media only screen and (max-width: 768px) {
+    .rwd-table{
+        /* width: 70%; */
+        margin-left: 0;
+        font-size: 12px;
+    }
+    /* start 02-28-2021  */
+    .h2-title-inspecteurs-en-batiment-trois-rivieres{
+        font-size: 18px;
+   line-height: 24px;
+   font-weight: 700;
+       font-family: Lato, Arial, Tahoma, sans-serif;
+   margin-bottom: 20px;
+
+   }
+   .table-inspecteurs-en-batiment-trois-rivieres{
+       width:100%;
+       margin:0;
+   }
+   .desktop-img-1888{
+       display:none;
+   }
+   .mobile-img-1888{
+   display:block;
+}
+   .desktop-img-1875{
+       display:none;
+   }
+   .mobile-img-1875{
+   display:block;
+}
+   /* inspecteurs-en-batiment-sherbrooke page */
+   .desktop-img-29{
+       display:none;
+   }
+   .mobile-img-29{
+   display:block;
+}
+   .mobile-div-img-1847{
+       display:block;
+   }
+       .desktop-img-1823{
+       display: none;
+   }
+   .mobile-div-img-1823{
+       display: block;
+   }
+   .mobile-img-1841{
+       display:block;
+   }
+
+    /* end 02-28-2021 */
+    .h2-with-border{
+        border-bottom: 4px solid #007fff;
+        padding-bottom: 5px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+    .inspecteurs-en-batiment-gatineau-subtitle{
+        font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    }
+    .inspecteurs-en-batiment-gatineau-title{
+        font-size: 22px;
+        line-height: 28px;
+        font-family: Lato, Arial, Tahoma, sans-serif;
+        font-weight: 400;
+    }
+    .table-inspection-immobiliere-a-quebec{
+        width: 100%;
+        margin-left: 0;
+    }
+    .table-inspecteurs-en-batiment-gatineau{
+        width: 100%;
+        margin-left: 0;
+    }
+    .desktop-img-1798{
+        display: none;
+    }
+    .mobile-img-1798{
+        display: block;
+    }
+    .desktop-img-1753{
+        display: none;
+    }
+    .img-inspection-immobiliere-a-quebec-1753{
+        display: block;
+    }
+    .inspection-immobiliere-a-quebec-subtitle{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    }
+    .inspection-immobiliere-a-quebec-title{
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    }
+    .table-inspecteurs-en-batiment-rive-sud-de-montreal{
+        width: 100%;
+    margin-left: 0;
+    }
+    .subtitle-inspecteurs-en-batiment-rive-sud-de-montreal{
+        font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    }
+    .nspecteurs-en-batiment-rive-sud-de-montreal-title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .inspecteurs-en-batiment-rive-sud-de-montreal-title-with-border{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    .desktop-img-9{
+        display: none;
+    }
+    .inspecteur-en-batiment-rive-nord-montreal-title{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+    .table-inspecteur-en-batiment-rive-nord-montreal{
+        width: 100%;
+        margin: 0;
+
+    }
+    .h2-subtitle-inspecteur-en-batiment-rive-nord-montreal{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .h2-inspecteur-en-batiment-rive-nord-montreal-title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .inspecteurs-en-batiment-gatineau-image-1802{
+        width: 100%;
+    }
+    .desktop-img-1770{
+        display: none;
+    }
+    .mobile-img-1770{
+        display: block;
+    }
+    .mobile-img-9{
+        display: block;
+    }
+    .desktop-img-1671{
+        display: none;
+    }
+    .mobile-img-1671{
+        display: block;
+    }
+    .desktop-img-1526{
+        display: none;
+    }
+    .mobile-img-1526{
+        display: block !important;
+    }
+    .desktop-img-1505{
+        display: none;
+    }
+    .mobile-img-1505{
+        display: block;
+    }
+    .section2-inspection-immobiliere-a-montreal-title{
+        font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    }
+    .h1-inspection-immobiliere-a-montreal-main{
+        font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    }
+    .h2-inspection-immobiliere-a-montreal-subtitle{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+        margin-bottom: 10px
+    }
+    .h2-inspection-immobiliere-a-montreal-title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .h2-inspection-immobiliere-a-montreal{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+    .form-section{
+        margin-top: -40px;
+    }
+   
+    .h3-title-page{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    .img2-1439{
+        display: block !important;
+    }
+    .desktop-img-1439{
+        display: none;
+    }
+   
+    .desktop-img-1424{
+        display: none;
+    }
+    .h2-inspecteur-en-batiment{
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    .desktop-img-1401{
+        display: none;
+    }
+    .mobile-img-1401{
+        display: block;
+    }
+    .page-inspecteur-en-batiment-h1{
+
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 700;
+        font-family: Lato, Arial, Tahoma, sans-serif;
+    }
+    .h2-title-enbatiment{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 700;
+        font-family: Lato, Arial, Tahoma, sans-serif;
+    }
+    .h2-title-inspecteur-en-batiment{
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 10px
+    }
+    .img-34{
+        padding-top: 20px;
+    }
+    /* .main-logo-text{
+        margin-left: 40px;
+    } */
+    .logo{
+        margin-left: 50px;
+    }
+    .img-34{
+        padding-top: 20px;
+    }
+    .img-arrow{
+        display: none;
+    }
+    .subheader{
+        padding-top: 20px;
+    }
+    
+    .man-work{
+        display: none !important;
+    }
+    .single-row{
+        width: 100%;
+    }
+
+    .mobile-form{
+        padding-bottom: 10px;    }
+    .custom-padding{
+        padding-left: 20px;
+    }
+    .desktop-section1-img-29{
+        display: none;
+    }
+    .mobile-section1-img-29{
+        display: block !important;
+    }
+    .submission-mobile{
+        margin-top: -70px;
+    width: 80%;
+    }
+    .mobile-tagline{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .main-logo-text{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold  !important;
+    }
+    .mobile-header{
+        text-align: center;
+        margin-bottom: -20px;
+    }
+    .mobile-section4-img-457{
+        display: block;
+    }
+    .with-padding{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+ 
+    .form-footer{
+        padding:0px;
+    }
+    .img-text-inside{
+        margin-top: -90px;
+    }
+    .second-title-section1{
+        font-size: 30px !important;
+    }
+    .section1-subtitle{
+        font-size: 20px  !important;
+    }
+    .form-button{
+        font-size: 12px !important;
+    }
+    .desktop-section4-img-647{
+        display: none;
+    }
+    .mobile-section4-img-647{
+        display: block;
+    }
+    .h2-inspection-prereception-copropriete-withcolor{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+    
+    }
+    .h2-content-inspection-prereception-copropriete{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+    .first-content-h1-inspection-prereception-copropriete{
+        font-size: 22px;
+        line-height: 28px;
+        font-weight:400;
+    }
+    
+    .desktop-section1-img-550{
+        display: none;
+    }
+    .mobile-section1-img-550{
+        display: block;
+    }
+    .subheading-presale{
+        font-size: 22px;
+        line-height: 28px;
+    }
+ 
+    .mobile-section1-img-390{
+        display: block;
+    }
+    
+    .desktop-section1-img-390{
+        display: none !important;
+    }
+    .mobile-section1-390{
+        display: block;
+    }
+    .desktop-section4-img-9{
+        display: none;
+    }
+    .mobile-section4-9{
+        display: block;
+    }
+    .desktop-section4-img-10{
+        display: none;
+    }
+    .mobile-section4-img-10{
+        display: block;
+    }
+    .desktop-section4-img-467{
+        display: none;
+    }
+    .mobile-section4-467{
+        display: block;
+    }
+    .desktop-section4-img-457{
+        display: none;
+    }
+ 
+    .mobile-section1-444{
+        display: block;
+    }
+  
+    .h1-title-inspection-preachat{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .first-content-pre-purchase{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+
+    }
+    .mobile-section1-29{
+        display: block;
+    }
+    
+    .mobile-457{
+        display: block;
+    }
+    .h1-service-dinspection-immobilier-page-withcolor{
+        font-size: 20px;
+    }
+    .h1-service-dinspection-immobilier-page{
+    font-size: 18px;
+   
+    }
+    .h1-title-service-dinspection-immobilier{
+        /* font-size: 20px; */
+        font-size: 22px;
+        line-height: 22px;
+        
+    }
+    .first-cart{
+        height: auto !important;
+    }
+    .footer-form{
+        width:100%;
+    }
+    .mobile-header{
+        margin-top: -35px !important;
+    }
+    .form-col-desktop{
+        margin-right: -15px !important;
+    }
+    .mobile-section4{
+        display: block !important;
+    }
+    .mobile-section4-4{
+        display: block !important;
+    }
+    .mobile-section4-10{
+        display: block !important;
+    }
+    /* .desktop-section4{
+        display: none !important;
+
+    } */
+    .h3-title{
+        font-size: 18px;
+    }
+    .mobile-text-image{
+        display: block !important;
+    }
+    .process{
+
+    width: 90% !important;
+    margin-left: 5% !important;
+    }
+
+    .with-padding{
+        padding: 20px;
+    }
+  .subtitle{
+      font-size: 15px;
+      line-height: 20px;
+  }
+  .form-section{
+      padding: 15px;
+  }
+  .form{
+      width: 80% !important;
+      margin: auto !important;
+  }
+  .custom-content{
+      height: 100%;
+      padding: 15px;
+  }
+  /* .img-arrow-col{
+      display: none;
+  } */
+  .form-title-logo{
+      font-size: 15px !important;
+      line-height: 18px !important;
+      color: white !important;
+  }
+  .form-logo{
+      height: 78px !important;
+
+  }
+  .main-content-below{
+    padding: 0 50px 0 50px;
+  }
+
+  .section1-img{
+    height: 400px;
+  }
+  .img-mobile{
+      display: block;
+     
+  }
+  .title-main{
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 20px;
+  }
+  .list-link{
+      display: none;
+  }
+  .h2-title{
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px;
+  }
+  .h2-subtitle{
+      font-size: 18px;
+      line-height: 22px;
+  }
+  .tobecome{
+      text-align: center;
+  }
+  .contact{
+      text-align:center;
+  }
+  .footer{
+      height: auto;
+  }
+  .form-tofill{
+      text-align: left;
+  }
+  .copyright{
+      text-align: center;
+  }
+  /* soumissions template */
+  .index-image{
+      display: none;
+  }
+  .icon{
+      padding: 20px;
+  }
+  .images{
+      padding: 35px;
+  }
+  p{
+      font-size:14px !important;
+  }
+  }
+  /* end @media query */
+  
+  /* soumissions template */
+  .divider-image{
+      text-align: center;
+      padding-top:40px ;
+  }
+  .h2-title-section1{
+      font-size: 24px;
+      line-height: 39px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 15px;
+  }
+  .section1-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  
+  }
+  .icons{
+      text-align: center;
+      margin-top: 30px;
+  }
+.second-title-section1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top:50px;
+    line-height: 39px;
+}
+.footer-img-section1{
+    margin-top: 200px;
+  
+}
+.footer-img-section1-col{
+    text-align: right;
+}
+
+/* Medium screens */
+@media screen and (max-width: 998px) {
+  .form{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .process{
+    width: 50%;
+    margin-left: 25%;
+  }
+  /* .img-arrow-col{
+      display: none;
+  } */
+  }
+  
